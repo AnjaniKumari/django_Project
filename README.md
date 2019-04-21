@@ -1,2 +1,23 @@
 # django_Project
 Creating your first project
+
+Steps to create your first project
+Modules needed:
+•	Install Django using the below command:
+->pip install Django
+
+•	Once Django is installed can check the version using below command:
+->python –m django –-version
+
+Project creation
+•	Once Django is installed and tested can create the project using below command:
+->django-admin startproject <django_project_name>
+•	above will create a project at the designated path
+
+Running project as a web service
+•	Run the project with below command
+in cmd prompt enter the below command
+->python manage.py runserver <portserver>
+•	Now go to the browser and check with the port number: 
+->http://127.0.0.1:<portnumber>
+To stop the server Ctrl+c
